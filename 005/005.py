@@ -8,6 +8,7 @@ def divisible(number):
 
 def start():
     start = 40
+
     while True:
         if divisible(start):
             return start
