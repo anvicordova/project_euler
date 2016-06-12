@@ -36,12 +36,10 @@ def start():
         update = number
         for j in update:
             result = i * j
-            boolean = isPalindromic(result)
-            if boolean:
+            if isPalindromic(result):
                 if(result > largest):
                     largest = result
         update.pop(update.index(i))
     return largest
-
 
 print start()
