@@ -28,8 +28,6 @@ def isPalindromic(number):
 number = range(100,1000)
 number = number[::-1]
 
-
-
 def start():
     largest = 0
     for i in number:
