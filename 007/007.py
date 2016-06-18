@@ -22,6 +22,8 @@ def nth_prime(n):
 
 def isPrime(number):
 
+    
+
     for i in primes:
         if number % i == 0:
             return False
